@@ -1,0 +1,14 @@
+{
+  "name": "cubanhouse-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Proposta visual para CubanHouse Gastrobar",
+  "scripts": {
+    "start": "node server.cjs",
+    "build": "node build-pages.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "type": "module"
+}

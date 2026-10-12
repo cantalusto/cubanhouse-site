@@ -1,0 +1,12 @@
+node_modules/
+.sites-runtime/
+*.tar.gz
+*.tar
+hero-original.png
+qa/
+
+.vercel/
+.openai/
+.env
+.env.*
+*.zip
