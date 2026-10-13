@@ -10,7 +10,7 @@ const fold=s=>s.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
 const icon=category=>`<svg viewBox="0 0 80 80" fill="none" stroke="currentColor" stroke-width="1.2" aria-hidden="true">${['drinks','beverages'].includes(category)?'<path d="M23 22h34l-5 39H28zM28 37h24M39 21l9-13M27 61h27"/><circle cx="56" cy="22" r="11"/><path d="M49 14l14 15"/>':'<circle cx="40" cy="40" r="25"/><circle cx="40" cy="40" r="18"/><path d="M7 18v20h8V18M11 38v26M67 18v46M67 18c10 3 9 17 0 22"/>'}</svg>`;
 function photo(d,detail=false){return d.image?`<img class="${detail?'detail-image':''}" src="assets/${d.image}-ai.webp" alt="${escape(d.name)} — imagem ilustrativa criada com IA" loading="lazy" width="350" height="260">`:`<div class="no-photo ${detail?'detail-no-photo':''}">${icon(d.category)}<small>Sem foto no catálogo</small></div>`}
 function renderMenu(){
- filtered=dishes.filter(d=>(category==='all'||(category==='featured'&&d.featured)||(category==='favorites'&&favorites.has(d.id))||d.category===category)&&fold(d.name+' '+d.description).includes(fold(query)));
+ filtered=dishes.filter(d=>(category==='all'||(category==='featured'&&d.featured)||(category==='favorites'&&favorites.has(d.id))||d.category===category)&&fold(d.name+' '+d.description+' '+(window.cubanI18n?.t(d.name)||'')+' '+(window.cubanI18n?.t(d.description)||'')).includes(fold(query)));
  if(sort!=='default')filtered.sort((a,b)=>sort==='price-asc'?a.price-b.price:b.price-a.price);
  $('#menu-grid').innerHTML=filtered.slice(0,limit).map(d=>`<article class="dish-card" data-id="${d.id}"><button class="dish-image-button" data-detail="${d.id}" aria-label="Ver detalhes de ${escape(d.name)}">${photo(d)}<span class="dish-ai-label">Imagem ilustrativa</span><span class="dish-badge">${d.category==='lunch'?'Almoço executivo':d.category==='drinks'?'Para brindar':'Para a sua mesa'}</span></button><button class="favorite" data-favorite="${d.id}" aria-label="${favorites.has(d.id)?'Remover':'Salvar'} ${escape(d.name)} ${favorites.has(d.id)?'dos':'nos'} favoritos" aria-pressed="${favorites.has(d.id)}">${favorites.has(d.id)?'♥':'♡'}</button><div class="dish-info"><p class="dish-category">${categoryNames[d.category]}</p><button class="dish-title" data-detail="${d.id}">${escape(d.name)}</button><p class="dish-description">${escape(d.description)}</p><div class="dish-bottom"><span class="dish-price">${money(d.price)}</span><a class="dish-order" href="${d.url}" target="_blank" rel="noopener" aria-label="Ver ${escape(d.name)} no iFood (nova aba)">Ver no iFood <span aria-hidden="true">↗</span></a></div></div></article>`).join('');
  $('#empty-state').hidden=filtered.length>0;
@@ -47,7 +47,7 @@ function setupMotion(){animationContext?.revert();const disabled=reduced.matches
   gsap.utils.toArray('.section-heading,.experience-copy,.visit-left,.visit-info').forEach(el=>gsap.from(el,{y:34,opacity:0,duration:.8,ease:'power2.out',scrollTrigger:{trigger:el,start:'top 90%',once:true}}));
   gsap.from('.night-section h2',{y:70,duration:1,ease:'power2.out',scrollTrigger:{trigger:'.night-section',start:'top 80%',end:'top 20%',scrub:1}});
   gsap.to('.night-waves',{y:-22,ease:'none',scrollTrigger:{trigger:'.night-section',start:'top bottom',end:'bottom top',scrub:1}});
-  gsap.matchMedia().add('(min-width: 761px)',()=>{gsap.to('.hero-photo',{y:75,scale:1.06,ease:'none',scrollTrigger:{trigger:'.hero',start:'top top',end:'bottom top',scrub:1}});gsap.to('.hero-content',{y:100,opacity:.3,ease:'none',scrollTrigger:{trigger:'.hero',start:'top top',end:'bottom top',scrub:1}})});
+  gsap.matchMedia().add('(min-width: 761px)',()=>{gsap.fromTo('.hero-photo',{y:0,scale:1},{y:65,scale:1.02,ease:'none',scrollTrigger:{trigger:'.hero',start:'top top',end:'bottom top',scrub:.6,invalidateOnRefresh:true}});gsap.to('.hero-content',{y:100,opacity:.3,ease:'none',scrollTrigger:{trigger:'.hero',start:'top top',end:'bottom top',scrub:1}})});
  });
 }
 $('#motion-toggle').addEventListener('click',()=>{userReduced=!(userReduced||reduced.matches);try{localStorage.setItem('cuban-motion',userReduced?'reduced':'full')}catch{}setupMotion()});reduced.addEventListener('change',setupMotion);
@@ -57,3 +57,5 @@ const sceneObserver=new IntersectionObserver(entries=>{if(entries.some(e=>e.isIn
 
 
 
+
+window.addEventListener("cuban:language",()=>renderMenu());

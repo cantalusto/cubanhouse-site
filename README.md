@@ -14,9 +14,17 @@ Demonstração comercial independente para apresentar ao Cuban House Gastrobar, 
 - Loading de primeira entrada por pelo menos 2 segundos: logo acende como letreiro. Nas navegações seguintes, só aparece se o carregamento demorar; transições e entrada do conteúdo nas páginas internas.
 - Layout responsivo, ações rápidas no celular e preferência de movimento reduzido.
 
+## Idiomas e avaliações
+
+Português, inglês e espanhol no seletor do cabeçalho. A escolha fica salva no navegador e vale para todas as páginas, com tradução do catálogo, pesquisa, detalhes, navegação e rótulos de acessibilidade. Nomes de marcas e os valores em reais são preservados.
+
+A seção de avaliações mostra a nota de 4,5 e o total de 43 avaliações, conferidos diretamente no Google Maps em 12/10/2026. Inclui três trechos selecionados, com autoria, estrelas reais, controles e link para a fonte. Os trechos em inglês/espanhol são identificados como traduções. Não há atualização automática sem a futura conexão oficial. O snapshot está em `dist/reviews-data.js`; para conectar depois, usar Google Places no servidor, com chave protegida no Vercel, cache e autoria dos comentários preservada.
+
+O parallax da abertura mantém uma margem de imagem além da área visível, evitando faixas vazias ao voltar ao topo. Os elementos do emblema 3D foram proporcionados para permanecer dentro da base e não cruzar os textos.
+
 ## Imagens e conteúdo
 
-O logo é a foto pública original do Instagram. Imagens gastronômicas e cenas do pub foram geradas por IA e são identificadas como ilustrativas. Não são fotografias documentais do restaurante. A abertura de Petiscos usa uma imagem panorâmica criada para ocupar a largura da tela: bolinhos em travessa, cerveja e coquetel à direita, interior escuro do pub à esquerda, luzes rosa e verde-água.
+O logo é a foto pública original do Instagram. Imagens gastronômicas e cenas do pub foram geradas por IA e são identificadas como ilustrativas. Não são fotografias documentais do restaurante. Todas as seis categorias usam imagens panorâmicas próprias criadas para ocupar a largura da abertura. Pratos ou bebidas ficam à direita e o interior escuro do pub à esquerda, com luzes rosa e verde-água. As imagens em WebP são carregadas apenas na página correspondente.
 
 Catálogo e informações públicas consultados em 12/10/2026. Preços, disponibilidade, entrega e valor final são confirmados no iFood. Não há credenciais nem sincronização automática nesta demonstração.
 
