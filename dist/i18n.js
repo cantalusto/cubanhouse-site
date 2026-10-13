@@ -7,6 +7,7 @@
   const dict=dictionaries[language]||{},direct=dict[key(s)];
   if(direct)return s===s.toUpperCase()&&/[A-ZÀ-Ú]/.test(s)?direct.toUpperCase():direct;
   let m;
+  if((m=s.match(/^Ver foto de (.+)$/)))return (language==='en'?'View photo of ':'Ver foto de ')+translate(m[1]);
   if((m=s.match(/^(\d+) opç(?:ão|ões)(?: para “(.+)”)?$/)))return m[1]+(language==='en'?(m[1]==='1'?' option':' options'):(m[1]==='1'?' opción':' opciones'))+(m[2]?(language==='en'?' for “':' para “')+m[2]+'”':'');
   if((m=s.match(/^Ver detalhes de (.+)$/)))return (language==='en'?'View details of ':'Ver detalles de ')+translate(m[1]);
   if((m=s.match(/^Ver (.+) no iFood \(nova aba\)$/)))return (language==='en'?'View ':'Ver ')+translate(m[1])+(language==='en'?' on iFood (new tab)':' en iFood (nueva pestaña)');

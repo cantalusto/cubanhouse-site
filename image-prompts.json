@@ -1,0 +1,398 @@
+{
+  "tool": "built-in image_gen",
+  "purpose": "Illustrative menu imagery with CubanHouse pink/mint neon lighting",
+  "jobs": [
+    {
+      "id": "0513eae0-d329-484e-aba6-5206f2797f85",
+      "name": "Frango grelhado",
+      "image": "dish-0513eae0",
+      "prompt": "Use case: photorealistic-natural. Asset type: square food photograph for a Brazilian gastrobar menu. Subject: Frango grelhado — a grilled chicken breast with white rice, Brazilian black beans in a small ramekin, golden French fries and tomato salad on one dark ceramic plate. Entire plate in frame, 3/4 overhead camera, dark pub tabletop, warm appetizing light, subtle pink and teal bokeh in background. Realistic food textures, generous but believable serving. No people, no lettering, no watermark, no collage. This is an illustrative AI menu image."
+    },
+    {
+      "id": "94ac7bb8-5c51-4ced-b762-aee50b7b5db8",
+      "name": "Filé de tilápia",
+      "image": "dish-94ac7bb8",
+      "prompt": "Use case: photorealistic-natural. Asset type: square illustrative photograph for CubanHouse Brazilian gastrobar menu. Subject: Filé de tilápia. Details: Tilápia empanada com arroz, feijão, batata frita e salada. Show only this dish, freshly prepared, on a dark ceramic plate. Correct ingredients, side dishes and food type. No unrelated food. Composition: whole dish or container comfortably inside the square frame with margin, 3/4 overhead food camera or eye-level product camera, dark pub tabletop. Lighting: warm natural appetizing key light, clearly visible subtle pink neon rim light on one edge and mint/teal rim light on the opposite edge, pink and mint neon bokeh in dark background. Food keeps natural golden colors; colored light mainly on tabletop, glass or plate rim. Realistic textures, professional menu photo. No people, captions, collage or watermark."
+    },
+    {
+      "id": "b9e45672-8ccd-482e-a602-e2200eaf9258",
+      "name": "Costelinha ao barbecue",
+      "image": "dish-b9e45672",
+      "prompt": "Use case: photorealistic-natural. Asset type: square illustrative photograph for CubanHouse Brazilian gastrobar menu. Subject: Costelinha ao barbecue. Details: Costelinha frita ao barbecue com arroz, feijão, fritas e salada. Show only this dish, freshly prepared, on a dark ceramic plate. Correct ingredients, side dishes and food type. No unrelated food. Composition: whole dish or container comfortably inside the square frame with margin, 3/4 overhead food camera or eye-level product camera, dark pub tabletop. Lighting: warm natural appetizing key light, clearly visible subtle pink neon rim light on one edge and mint/teal rim light on the opposite edge, pink and mint neon bokeh in dark background. Food keeps natural golden colors; colored light mainly on tabletop, glass or plate rim. Realistic textures, professional menu photo. No people, captions, collage or watermark."
+    },
+    {
+      "id": "a5af6574-2cf7-441c-925c-145c56df7055",
+      "name": "Alcatra acebolada",
+      "image": "dish-a5af6574",
+      "prompt": "Use case: photorealistic-natural. Asset type: square illustrative photograph for CubanHouse Brazilian gastrobar menu. Subject: Alcatra acebolada. Details: Alcatra com cebola, arroz, feijão, batata frita e salada. Show only this dish, freshly prepared, on a dark ceramic plate. Correct ingredients, side dishes and food type. No unrelated food. Composition: whole dish or container comfortably inside the square frame with margin, 3/4 overhead food camera or eye-level product camera, dark pub tabletop. Lighting: warm natural appetizing key light, clearly visible subtle pink neon rim light on one edge and mint/teal rim light on the opposite edge, pink and mint neon bokeh in dark background. Food keeps natural golden colors; colored light mainly on tabletop, glass or plate rim. Realistic textures, professional menu photo. No people, captions, collage or watermark."
+    },
+    {
+      "id": "0562ec43-8bb8-4639-be22-d7603c425f27",
+      "name": "Frango à milanesa",
+      "image": "dish-0562ec43",
+      "prompt": "Use case: photorealistic-natural. Asset type: square illustrative photograph for CubanHouse Brazilian gastrobar menu. Subject: Frango à milanesa. Details: Frango empanado com arroz, feijão, batata frita e salada. Show only this dish, freshly prepared, on a dark ceramic plate. Correct ingredients, side dishes and food type. No unrelated food. Composition: whole dish or container comfortably inside the square frame with margin, 3/4 overhead food camera or eye-level product camera, dark pub tabletop. Lighting: warm natural appetizing key light, clearly visible subtle pink neon rim light on one edge and mint/teal rim light on the opposite edge, pink and mint neon bokeh in dark background. Food keeps natural golden colors; colored light mainly on tabletop, glass or plate rim. Realistic textures, professional menu photo. No people, captions, collage or watermark."
+    },
+    {
+      "id": "d2069750-d29e-401b-8e02-6507980eb688",
+      "name": "Alcatra à milanesa",
+      "image": "dish-d2069750",
+      "prompt": "Use case: photorealistic-natural. Asset type: square illustrative photograph for CubanHouse Brazilian gastrobar menu. Subject: Alcatra à milanesa. Details: Alcatra empanada com arroz, feijão, batata frita e salada. Show only this dish, freshly prepared, on a dark ceramic plate. Correct ingredients, side dishes and food type. No unrelated food. Composition: whole dish or container comfortably inside the square frame with margin, 3/4 overhead food camera or eye-level product camera, dark pub tabletop. Lighting: warm natural appetizing key light, clearly visible subtle pink neon rim light on one edge and mint/teal rim light on the opposite edge, pink and mint neon bokeh in dark background. Food keeps natural golden colors; colored light mainly on tabletop, glass or plate rim. Realistic textures, professional menu photo. No people, captions, collage or watermark."
+    },
+    {
+      "id": "e5d42306-6cdf-4e6f-a92e-f98ada77cc16",
+      "name": "Bolinho de feijoada",
+      "image": "dish-e5d42306",
+      "prompt": "Use case: photorealistic-natural. Asset type: square illustrative photograph for CubanHouse Brazilian gastrobar menu. Subject: Bolinho de feijoada. Details: 6 bolinhos acompanhados de molho de pimenta. Show only this dish, freshly prepared, on a dark ceramic plate. Correct ingredients, side dishes and food type. No unrelated food. Composition: whole dish or container comfortably inside the square frame with margin, 3/4 overhead food camera or eye-level product camera, dark pub tabletop. Lighting: warm natural appetizing key light, clearly visible subtle pink neon rim light on one edge and mint/teal rim light on the opposite edge, pink and mint neon bokeh in dark background. Food keeps natural golden colors; colored light mainly on tabletop, glass or plate rim. Realistic textures, professional menu photo. No people, captions, collage or watermark."
+    },
+    {
+      "id": "6c9ebe02-3ca0-40ef-ac36-a4c467c93e73",
+      "name": "Porção de batata — M",
+      "image": "dish-6c9ebe02",
+      "prompt": "Use case: photorealistic-natural. Asset type: square illustrative photograph for CubanHouse Brazilian gastrobar menu. Subject: Porção de batata — M. Details: Porção média de batata frita. Show only this dish, freshly prepared, on a dark ceramic plate. Correct ingredients, side dishes and food type. No unrelated food. Composition: whole dish or container comfortably inside the square frame with margin, 3/4 overhead food camera or eye-level product camera, dark pub tabletop. Lighting: warm natural appetizing key light, clearly visible subtle pink neon rim light on one edge and mint/teal rim light on the opposite edge, pink and mint neon bokeh in dark background. Food keeps natural golden colors; colored light mainly on tabletop, glass or plate rim. Realistic textures, professional menu photo. No people, captions, collage or watermark."
+    },
+    {
+      "id": "a60e7427-cba3-40e2-9afd-0febe28942b3",
+      "name": "Porção de batata — G",
+      "image": "dish-a60e7427",
+      "prompt": "Use case: photorealistic-natural. Asset type: square illustrative photograph for CubanHouse Brazilian gastrobar menu. Subject: Porção de batata — G. Details: Porção grande de batata frita. Show only this dish, freshly prepared, on a dark ceramic plate. Correct ingredients, side dishes and food type. No unrelated food. Composition: whole dish or container comfortably inside the square frame with margin, 3/4 overhead food camera or eye-level product camera, dark pub tabletop. Lighting: warm natural appetizing key light, clearly visible subtle pink neon rim light on one edge and mint/teal rim light on the opposite edge, pink and mint neon bokeh in dark background. Food keeps natural golden colors; colored light mainly on tabletop, glass or plate rim. Realistic textures, professional menu photo. No people, captions, collage or watermark."
+    },
+    {
+      "id": "8624d5de-c0d8-4491-b429-d399417a6e7f",
+      "name": "Mini batata suprema",
+      "image": "dish-8624d5de",
+      "prompt": "Use case: photorealistic-natural. Asset type: square illustrative photograph for CubanHouse Brazilian gastrobar menu. Subject: Mini batata suprema. Details: 300 g de batata frita com cheddar e bacon. Show only this dish, freshly prepared, on a dark ceramic plate. Correct ingredients, side dishes and food type. No unrelated food. Composition: whole dish or container comfortably inside the square frame with margin, 3/4 overhead food camera or eye-level product camera, dark pub tabletop. Lighting: warm natural appetizing key light, clearly visible subtle pink neon rim light on one edge and mint/teal rim light on the opposite edge, pink and mint neon bokeh in dark background. Food keeps natural golden colors; colored light mainly on tabletop, glass or plate rim. Realistic textures, professional menu photo. No people, captions, collage or watermark."
+    },
+    {
+      "id": "ca84d6c5-bd9f-479a-8917-6493205877c2",
+      "name": "Tiras de alcatra com fritas",
+      "image": "dish-ca84d6c5",
+      "prompt": "Use case: photorealistic-natural. Asset type: square illustrative photograph for CubanHouse Brazilian gastrobar menu. Subject: Tiras de alcatra com fritas. Details: 300 g de alcatra acebolada e 300 g de batata frita. Show only this dish, freshly prepared, on a dark ceramic plate. Correct ingredients, side dishes and food type. No unrelated food. Composition: whole dish or container comfortably inside the square frame with margin, 3/4 overhead food camera or eye-level product camera, dark pub tabletop. Lighting: warm natural appetizing key light, clearly visible subtle pink neon rim light on one edge and mint/teal rim light on the opposite edge, pink and mint neon bokeh in dark background. Food keeps natural golden colors; colored light mainly on tabletop, glass or plate rim. Realistic textures, professional menu photo. No people, captions, collage or watermark."
+    },
+    {
+      "id": "1635a2cc-f889-4424-960f-bf917a3fd43c",
+      "name": "Tiras de contra-filé com fritas",
+      "image": "dish-1635a2cc",
+      "prompt": "Use case: photorealistic-natural. Asset type: square illustrative photograph for CubanHouse Brazilian gastrobar menu. Subject: Tiras de contra-filé com fritas. Details: 300 g de contra-filé e 300 g de batata frita. Show only this dish, freshly prepared, on a dark ceramic plate. Correct ingredients, side dishes and food type. No unrelated food. Composition: whole dish or container comfortably inside the square frame with margin, 3/4 overhead food camera or eye-level product camera, dark pub tabletop. Lighting: warm natural appetizing key light, clearly visible subtle pink neon rim light on one edge and mint/teal rim light on the opposite edge, pink and mint neon bokeh in dark background. Food keeps natural golden colors; colored light mainly on tabletop, glass or plate rim. Realistic textures, professional menu photo. No people, captions, collage or watermark."
+    },
+    {
+      "id": "d8ee6245-d88d-4761-a0d3-cfbef996689d",
+      "name": "Tiras de picanha com fritas",
+      "image": "dish-d8ee6245",
+      "prompt": "Use case: photorealistic-natural. Asset type: square illustrative photograph for CubanHouse Brazilian gastrobar menu. Subject: Tiras de picanha com fritas. Details: 300 g de picanha na chapa e 300 g de batata frita. Show only this dish, freshly prepared, on a dark ceramic plate. Correct ingredients, side dishes and food type. No unrelated food. Composition: whole dish or container comfortably inside the square frame with margin, 3/4 overhead food camera or eye-level product camera, dark pub tabletop. Lighting: warm natural appetizing key light, clearly visible subtle pink neon rim light on one edge and mint/teal rim light on the opposite edge, pink and mint neon bokeh in dark background. Food keeps natural golden colors; colored light mainly on tabletop, glass or plate rim. Realistic textures, professional menu photo. No people, captions, collage or watermark."
+    },
+    {
+      "id": "b91d690f-d117-4e3d-9115-a89ff3791570",
+      "name": "Iscas de frango",
+      "image": "dish-b91d690f",
+      "prompt": "Use case: photorealistic-natural. Asset type: square illustrative photograph for CubanHouse Brazilian gastrobar menu. Subject: Iscas de frango. Details: 300 g de frango empanado com molho. Show only this dish, freshly prepared, on a dark ceramic plate. Correct ingredients, side dishes and food type. No unrelated food. Composition: whole dish or container comfortably inside the square frame with margin, 3/4 overhead food camera or eye-level product camera, dark pub tabletop. Lighting: warm natural appetizing key light, clearly visible subtle pink neon rim light on one edge and mint/teal rim light on the opposite edge, pink and mint neon bokeh in dark background. Food keeps natural golden colors; colored light mainly on tabletop, glass or plate rim. Realistic textures, professional menu photo. No people, captions, collage or watermark."
+    },
+    {
+      "id": "0376d3bb-eb02-459d-945b-3665772c3a88",
+      "name": "Tiras de costelinha com fritas",
+      "image": "dish-0376d3bb",
+      "prompt": "Use case: photorealistic-natural. Asset type: square illustrative photograph for CubanHouse Brazilian gastrobar menu. Subject: Tiras de costelinha com fritas. Details: Costela suína com batata frita. Porção de 750 g. Show only this dish, freshly prepared, on a dark ceramic plate. Correct ingredients, side dishes and food type. No unrelated food. Composition: whole dish or container comfortably inside the square frame with margin, 3/4 overhead food camera or eye-level product camera, dark pub tabletop. Lighting: warm natural appetizing key light, clearly visible subtle pink neon rim light on one edge and mint/teal rim light on the opposite edge, pink and mint neon bokeh in dark background. Food keeps natural golden colors; colored light mainly on tabletop, glass or plate rim. Realistic textures, professional menu photo. No people, captions, collage or watermark."
+    },
+    {
+      "id": "77b3ac75-ae6e-4bb9-9536-04dc048b188a",
+      "name": "Coxa de frango cremosa",
+      "image": "dish-77b3ac75",
+      "prompt": "Use case: photorealistic-natural. Asset type: square illustrative photograph for CubanHouse Brazilian gastrobar menu. Subject: Coxa de frango cremosa. Details: Coxa recheada com queijo e frango desfiado. Show only this dish, freshly prepared, on a dark ceramic plate. Correct ingredients, side dishes and food type. No unrelated food. Composition: whole dish or container comfortably inside the square frame with margin, 3/4 overhead food camera or eye-level product camera, dark pub tabletop. Lighting: warm natural appetizing key light, clearly visible subtle pink neon rim light on one edge and mint/teal rim light on the opposite edge, pink and mint neon bokeh in dark background. Food keeps natural golden colors; colored light mainly on tabletop, glass or plate rim. Realistic textures, professional menu photo. No people, captions, collage or watermark."
+    },
+    {
+      "id": "e87c4a5b-0c30-43fa-8d24-8d083f8f19c1",
+      "name": "Fish and chips",
+      "image": "dish-e87c4a5b",
+      "prompt": "Use case: photorealistic-natural. Asset type: square illustrative photograph for CubanHouse Brazilian gastrobar menu. Subject: Fish and chips. Details: Peixe frito e batata frita em uma porção de 600 g. Show only this dish, freshly prepared, on a dark ceramic plate. Correct ingredients, side dishes and food type. No unrelated food. Composition: whole dish or container comfortably inside the square frame with margin, 3/4 overhead food camera or eye-level product camera, dark pub tabletop. Lighting: warm natural appetizing key light, clearly visible subtle pink neon rim light on one edge and mint/teal rim light on the opposite edge, pink and mint neon bokeh in dark background. Food keeps natural golden colors; colored light mainly on tabletop, glass or plate rim. Realistic textures, professional menu photo. No people, captions, collage or watermark."
+    },
+    {
+      "id": "1a763aaf-7667-4e0c-a118-d57b11750a72",
+      "name": "Bolinho de bacalhau",
+      "image": "dish-1a763aaf",
+      "prompt": "Use case: photorealistic-natural. Asset type: square illustrative photograph for CubanHouse Brazilian gastrobar menu. Subject: Bolinho de bacalhau. Details: 10 bolinhos de bacalhau com batata. Show only this dish, freshly prepared, on a dark ceramic plate. Correct ingredients, side dishes and food type. No unrelated food. Composition: whole dish or container comfortably inside the square frame with margin, 3/4 overhead food camera or eye-level product camera, dark pub tabletop. Lighting: warm natural appetizing key light, clearly visible subtle pink neon rim light on one edge and mint/teal rim light on the opposite edge, pink and mint neon bokeh in dark background. Food keeps natural golden colors; colored light mainly on tabletop, glass or plate rim. Realistic textures, professional menu photo. No people, captions, collage or watermark."
+    },
+    {
+      "id": "1649e20b-5551-44b3-9d80-d413c50a1fd8",
+      "name": "Camarão empanado",
+      "image": "dish-1649e20b",
+      "prompt": "Use case: photorealistic-natural. Asset type: square illustrative photograph for CubanHouse Brazilian gastrobar menu. Subject: Camarão empanado. Details: 300 g de camarão empanado. Show only this dish, freshly prepared, on a dark ceramic plate. Correct ingredients, side dishes and food type. No unrelated food. Composition: whole dish or container comfortably inside the square frame with margin, 3/4 overhead food camera or eye-level product camera, dark pub tabletop. Lighting: warm natural appetizing key light, clearly visible subtle pink neon rim light on one edge and mint/teal rim light on the opposite edge, pink and mint neon bokeh in dark background. Food keeps natural golden colors; colored light mainly on tabletop, glass or plate rim. Realistic textures, professional menu photo. No people, captions, collage or watermark."
+    },
+    {
+      "id": "afe08f5e-1f9d-4360-8ed5-eb618df0b749",
+      "name": "Iscas de peixe",
+      "image": "dish-afe08f5e",
+      "prompt": "Use case: photorealistic-natural. Asset type: square illustrative photograph for CubanHouse Brazilian gastrobar menu. Subject: Iscas de peixe. Details: 300 g de peixe temperado e empanado. Show only this dish, freshly prepared, on a dark ceramic plate. Correct ingredients, side dishes and food type. No unrelated food. Composition: whole dish or container comfortably inside the square frame with margin, 3/4 overhead food camera or eye-level product camera, dark pub tabletop. Lighting: warm natural appetizing key light, clearly visible subtle pink neon rim light on one edge and mint/teal rim light on the opposite edge, pink and mint neon bokeh in dark background. Food keeps natural golden colors; colored light mainly on tabletop, glass or plate rim. Realistic textures, professional menu photo. No people, captions, collage or watermark."
+    },
+    {
+      "id": "bb8edb11-bf71-4f08-b6e9-136b3ee379b1",
+      "name": "Chopp de vinho Pink Moon",
+      "image": "dish-bb8edb11",
+      "prompt": "Use case: photorealistic-natural. Asset type: square illustrative photograph for CubanHouse Brazilian gastrobar menu. Subject: Chopp de vinho Pink Moon. Details: Chopp de vinho. Bebida alcoólica. Show only this drink, freshly prepared, in a chilled clear beer glass with a creamy pale foam head. Correct ingredients, side dishes and food type. No unrelated food. Composition: whole dish or container comfortably inside the square frame with margin, 3/4 overhead food camera or eye-level product camera, dark pub tabletop. Lighting: warm natural appetizing key light, clearly visible subtle pink neon rim light on one edge and mint/teal rim light on the opposite edge, pink and mint neon bokeh in dark background. Food keeps natural golden colors; colored light mainly on tabletop, glass or plate rim. Realistic textures, professional menu photo. No people, captions, collage or watermark."
+    },
+    {
+      "id": "bce20b22-c469-4b34-88a8-93cb664dde26",
+      "name": "Heineken latão 473 ml",
+      "image": "dish-bce20b22",
+      "prompt": "Use case: product-mockup. Asset type: square illustrative photograph for CubanHouse Brazilian gastrobar menu. Subject: Heineken latão 473 ml. Details: Cerveja em lata de 473 ml. Bebida alcoólica. Show one chilled retail container matching the specified brand, type and size, upright, clearly distinguishable. Faithful recognizable packaging and label. No extra drinks or food. Composition: whole dish or container comfortably inside the square frame with margin, 3/4 overhead food camera or eye-level product camera, dark pub tabletop. Lighting: warm natural appetizing key light, clearly visible subtle pink neon rim light on one edge and mint/teal rim light on the opposite edge, pink and mint neon bokeh in dark background. Food keeps natural golden colors; colored light mainly on tabletop, glass or plate rim. Realistic textures, professional menu photo. No people, captions, collage or watermark."
+    },
+    {
+      "id": "9366c56b-bb94-47d4-8fff-190be3feed84",
+      "name": "Heineken 330 ml",
+      "image": "dish-9366c56b",
+      "prompt": "Use case: product-mockup. Asset type: square illustrative photograph for CubanHouse Brazilian gastrobar menu. Subject: Heineken 330 ml. Details: Cerveja long neck de 330 ml. Bebida alcoólica. Show one chilled retail container matching the specified brand, type and size, upright, clearly distinguishable. Faithful recognizable packaging and label. No extra drinks or food. Composition: whole dish or container comfortably inside the square frame with margin, 3/4 overhead food camera or eye-level product camera, dark pub tabletop. Lighting: warm natural appetizing key light, clearly visible subtle pink neon rim light on one edge and mint/teal rim light on the opposite edge, pink and mint neon bokeh in dark background. Food keeps natural golden colors; colored light mainly on tabletop, glass or plate rim. Realistic textures, professional menu photo. No people, captions, collage or watermark."
+    },
+    {
+      "id": "723199e7-d14e-4221-8467-032454593f34",
+      "name": "Brahma 473 ml",
+      "image": "dish-723199e7",
+      "prompt": "Use case: product-mockup. Asset type: square illustrative photograph for CubanHouse Brazilian gastrobar menu. Subject: Brahma 473 ml. Details: Cerveja em lata de 473 ml. Bebida alcoólica. Show one chilled retail container matching the specified brand, type and size, upright, clearly distinguishable. Faithful recognizable packaging and label. No extra drinks or food. Composition: whole dish or container comfortably inside the square frame with margin, 3/4 overhead food camera or eye-level product camera, dark pub tabletop. Lighting: warm natural appetizing key light, clearly visible subtle pink neon rim light on one edge and mint/teal rim light on the opposite edge, pink and mint neon bokeh in dark background. Food keeps natural golden colors; colored light mainly on tabletop, glass or plate rim. Realistic textures, professional menu photo. No people, captions, collage or watermark."
+    },
+    {
+      "id": "7bd7209a-ee9e-4599-afe8-fc105755a5bf",
+      "name": "Skol Beats Sense 269 ml",
+      "image": "dish-7bd7209a",
+      "prompt": "Use case: product-mockup. Asset type: square illustrative photograph for CubanHouse Brazilian gastrobar menu. Subject: Skol Beats Sense 269 ml. Details: Bebida alcoólica em lata de 269 ml. Show one chilled retail container matching the specified brand, type and size, upright, clearly distinguishable. Faithful recognizable packaging and label. No extra drinks or food. Composition: whole dish or container comfortably inside the square frame with margin, 3/4 overhead food camera or eye-level product camera, dark pub tabletop. Lighting: warm natural appetizing key light, clearly visible subtle pink neon rim light on one edge and mint/teal rim light on the opposite edge, pink and mint neon bokeh in dark background. Food keeps natural golden colors; colored light mainly on tabletop, glass or plate rim. Realistic textures, professional menu photo. No people, captions, collage or watermark."
+    },
+    {
+      "id": "7761713e-3688-49fa-9498-d7ff36074877",
+      "name": "Cachaça 51 965 ml",
+      "image": "dish-7761713e",
+      "prompt": "Use case: product-mockup. Asset type: square illustrative photograph for CubanHouse Brazilian gastrobar menu. Subject: Cachaça 51 965 ml. Details: Garrafa de cachaça de 965 ml. Bebida alcoólica. Show one chilled retail container matching the specified brand, type and size, upright, clearly distinguishable. Faithful recognizable packaging and label. No extra drinks or food. Composition: whole dish or container comfortably inside the square frame with margin, 3/4 overhead food camera or eye-level product camera, dark pub tabletop. Lighting: warm natural appetizing key light, clearly visible subtle pink neon rim light on one edge and mint/teal rim light on the opposite edge, pink and mint neon bokeh in dark background. Food keeps natural golden colors; colored light mainly on tabletop, glass or plate rim. Realistic textures, professional menu photo. No people, captions, collage or watermark."
+    },
+    {
+      "id": "c3620f80-385b-494d-88ad-ab2dada3384e",
+      "name": "Corona 330 ml",
+      "image": "dish-c3620f80",
+      "prompt": "Use case: product-mockup. Asset type: square illustrative photograph for CubanHouse Brazilian gastrobar menu. Subject: Corona 330 ml. Details: Cerveja long neck de 330 ml. Bebida alcoólica. Show one chilled retail container matching the specified brand, type and size, upright, clearly distinguishable. Faithful recognizable packaging and label. No extra drinks or food. Composition: whole dish or container comfortably inside the square frame with margin, 3/4 overhead food camera or eye-level product camera, dark pub tabletop. Lighting: warm natural appetizing key light, clearly visible subtle pink neon rim light on one edge and mint/teal rim light on the opposite edge, pink and mint neon bokeh in dark background. Food keeps natural golden colors; colored light mainly on tabletop, glass or plate rim. Realistic textures, professional menu photo. No people, captions, collage or watermark."
+    },
+    {
+      "id": "1af5b9c0-fdf9-4f61-a1b7-994815b3cadd",
+      "name": "Heineken Zero 330 ml",
+      "image": "dish-1af5b9c0",
+      "prompt": "Use case: product-mockup. Asset type: square illustrative photograph for CubanHouse Brazilian gastrobar menu. Subject: Heineken Zero 330 ml. Details: Cerveja sem álcool de 330 ml. Show one chilled retail container matching the specified brand, type and size, upright, clearly distinguishable. Faithful recognizable packaging and label. No extra drinks or food. Composition: whole dish or container comfortably inside the square frame with margin, 3/4 overhead food camera or eye-level product camera, dark pub tabletop. Lighting: warm natural appetizing key light, clearly visible subtle pink neon rim light on one edge and mint/teal rim light on the opposite edge, pink and mint neon bokeh in dark background. Food keeps natural golden colors; colored light mainly on tabletop, glass or plate rim. Realistic textures, professional menu photo. No people, captions, collage or watermark."
+    },
+    {
+      "id": "17b26f41-e1ec-4d1e-b7ca-96acb114ed26",
+      "name": "Coca-Cola 350 ml",
+      "image": "dish-17b26f41",
+      "prompt": "Use case: product-mockup. Asset type: square illustrative photograph for CubanHouse Brazilian gastrobar menu. Subject: Coca-Cola 350 ml. Details: Refrigerante em lata de 350 ml. Show one chilled retail container matching the specified brand, type and size, upright, clearly distinguishable. Faithful recognizable packaging and label. No extra drinks or food. Composition: whole dish or container comfortably inside the square frame with margin, 3/4 overhead food camera or eye-level product camera, dark pub tabletop. Lighting: warm natural appetizing key light, clearly visible subtle pink neon rim light on one edge and mint/teal rim light on the opposite edge, pink and mint neon bokeh in dark background. Food keeps natural golden colors; colored light mainly on tabletop, glass or plate rim. Realistic textures, professional menu photo. No people, captions, collage or watermark."
+    },
+    {
+      "id": "fa197881-3f00-4041-95f2-8196032ef1af",
+      "name": "Monster 473 ml",
+      "image": "dish-fa197881",
+      "prompt": "Use case: product-mockup. Asset type: square illustrative photograph for CubanHouse Brazilian gastrobar menu. Subject: Monster 473 ml. Details: Energético em lata de 473 ml. Show one chilled retail container matching the specified brand, type and size, upright, clearly distinguishable. Faithful recognizable packaging and label. No extra drinks or food. Composition: whole dish or container comfortably inside the square frame with margin, 3/4 overhead food camera or eye-level product camera, dark pub tabletop. Lighting: warm natural appetizing key light, clearly visible subtle pink neon rim light on one edge and mint/teal rim light on the opposite edge, pink and mint neon bokeh in dark background. Food keeps natural golden colors; colored light mainly on tabletop, glass or plate rim. Realistic textures, professional menu photo. No people, captions, collage or watermark."
+    },
+    {
+      "id": "1a6f39b2-8a0b-45f9-9924-77ddb18c53ba",
+      "name": "Sprite 350 ml",
+      "image": "dish-1a6f39b2",
+      "prompt": "Use case: product-mockup. Asset type: square illustrative photograph for CubanHouse Brazilian gastrobar menu. Subject: Sprite 350 ml. Details: Refrigerante em lata de 350 ml. Show one chilled retail container matching the specified brand, type and size, upright, clearly distinguishable. Faithful recognizable packaging and label. No extra drinks or food. Composition: whole dish or container comfortably inside the square frame with margin, 3/4 overhead food camera or eye-level product camera, dark pub tabletop. Lighting: warm natural appetizing key light, clearly visible subtle pink neon rim light on one edge and mint/teal rim light on the opposite edge, pink and mint neon bokeh in dark background. Food keeps natural golden colors; colored light mainly on tabletop, glass or plate rim. Realistic textures, professional menu photo. No people, captions, collage or watermark."
+    },
+    {
+      "id": "f3d70c1d-d3ff-4d54-a242-f28be2e1ee74",
+      "name": "Fanta Laranja 350 ml",
+      "image": "dish-f3d70c1d",
+      "prompt": "Use case: product-mockup. Asset type: square illustrative photograph for CubanHouse Brazilian gastrobar menu. Subject: Fanta Laranja 350 ml. Details: Refrigerante em lata de 350 ml. Show one chilled retail container matching the specified brand, type and size, upright, clearly distinguishable. Faithful recognizable packaging and label. No extra drinks or food. Composition: whole dish or container comfortably inside the square frame with margin, 3/4 overhead food camera or eye-level product camera, dark pub tabletop. Lighting: warm natural appetizing key light, clearly visible subtle pink neon rim light on one edge and mint/teal rim light on the opposite edge, pink and mint neon bokeh in dark background. Food keeps natural golden colors; colored light mainly on tabletop, glass or plate rim. Realistic textures, professional menu photo. No people, captions, collage or watermark."
+    },
+    {
+      "id": "e9142783-be70-4fe8-b95c-e28dcf193ca5",
+      "name": "Fanta Guaraná 350 ml",
+      "image": "dish-e9142783",
+      "prompt": "Use case: product-mockup. Asset type: square illustrative photograph for CubanHouse Brazilian gastrobar menu. Subject: Fanta Guaraná 350 ml. Details: Refrigerante em lata de 350 ml. Show one chilled retail container matching the specified brand, type and size, upright, clearly distinguishable. Faithful recognizable packaging and label. No extra drinks or food. Composition: whole dish or container comfortably inside the square frame with margin, 3/4 overhead food camera or eye-level product camera, dark pub tabletop. Lighting: warm natural appetizing key light, clearly visible subtle pink neon rim light on one edge and mint/teal rim light on the opposite edge, pink and mint neon bokeh in dark background. Food keeps natural golden colors; colored light mainly on tabletop, glass or plate rim. Realistic textures, professional menu photo. No people, captions, collage or watermark."
+    },
+    {
+      "id": "d247ca13-0fe1-430d-871c-c4e225c15053",
+      "name": "Coca-Cola Zero 350 ml",
+      "image": "dish-d247ca13",
+      "prompt": "Use case: product-mockup. Asset type: square illustrative photograph for CubanHouse Brazilian gastrobar menu. Subject: Coca-Cola Zero 350 ml. Details: Refrigerante sem açúcar em lata de 350 ml. Show one chilled retail container matching the specified brand, type and size, upright, clearly distinguishable. Faithful recognizable packaging and label. No extra drinks or food. Composition: whole dish or container comfortably inside the square frame with margin, 3/4 overhead food camera or eye-level product camera, dark pub tabletop. Lighting: warm natural appetizing key light, clearly visible subtle pink neon rim light on one edge and mint/teal rim light on the opposite edge, pink and mint neon bokeh in dark background. Food keeps natural golden colors; colored light mainly on tabletop, glass or plate rim. Realistic textures, professional menu photo. No people, captions, collage or watermark."
+    },
+    {
+      "id": "f7839651-bab8-4d24-8c3d-2dd676ee0621",
+      "name": "Del Valle Pêssego",
+      "image": "dish-f7839651",
+      "prompt": "Use case: product-mockup. Asset type: square illustrative photograph for CubanHouse Brazilian gastrobar menu. Subject: Del Valle Pêssego. Details: Bebida de pêssego. Show one chilled retail container matching the specified brand, type and size, upright, clearly distinguishable. Faithful recognizable packaging and label. No extra drinks or food. Composition: whole dish or container comfortably inside the square frame with margin, 3/4 overhead food camera or eye-level product camera, dark pub tabletop. Lighting: warm natural appetizing key light, clearly visible subtle pink neon rim light on one edge and mint/teal rim light on the opposite edge, pink and mint neon bokeh in dark background. Food keeps natural golden colors; colored light mainly on tabletop, glass or plate rim. Realistic textures, professional menu photo. No people, captions, collage or watermark."
+    },
+    {
+      "id": "615a2580-2463-4fda-8d94-e348bfeb69f5",
+      "name": "Fanta Uva 350 ml",
+      "image": "dish-615a2580",
+      "prompt": "Use case: product-mockup. Asset type: square illustrative photograph for CubanHouse Brazilian gastrobar menu. Subject: Fanta Uva 350 ml. Details: Refrigerante em lata de 350 ml. Show one chilled retail container matching the specified brand, type and size, upright, clearly distinguishable. Faithful recognizable packaging and label. No extra drinks or food. Composition: whole dish or container comfortably inside the square frame with margin, 3/4 overhead food camera or eye-level product camera, dark pub tabletop. Lighting: warm natural appetizing key light, clearly visible subtle pink neon rim light on one edge and mint/teal rim light on the opposite edge, pink and mint neon bokeh in dark background. Food keeps natural golden colors; colored light mainly on tabletop, glass or plate rim. Realistic textures, professional menu photo. No people, captions, collage or watermark."
+    },
+    {
+      "id": "65d406f2-8cae-40db-b33a-c631e8980604",
+      "name": "Del Valle Goiaba 290 ml",
+      "image": "dish-65d406f2",
+      "prompt": "Use case: product-mockup. Asset type: square illustrative photograph for CubanHouse Brazilian gastrobar menu. Subject: Del Valle Goiaba 290 ml. Details: Néctar de goiaba em lata de 290 ml. Show one chilled retail container matching the specified brand, type and size, upright, clearly distinguishable. Faithful recognizable packaging and label. No extra drinks or food. Composition: whole dish or container comfortably inside the square frame with margin, 3/4 overhead food camera or eye-level product camera, dark pub tabletop. Lighting: warm natural appetizing key light, clearly visible subtle pink neon rim light on one edge and mint/teal rim light on the opposite edge, pink and mint neon bokeh in dark background. Food keeps natural golden colors; colored light mainly on tabletop, glass or plate rim. Realistic textures, professional menu photo. No people, captions, collage or watermark."
+    },
+    {
+      "id": "4843bed8-827a-4bb7-8867-390fecaa3565",
+      "name": "Monster Mango Loco 473 ml",
+      "image": "dish-4843bed8",
+      "prompt": "Use case: product-mockup. Asset type: square illustrative photograph for CubanHouse Brazilian gastrobar menu. Subject: Monster Mango Loco 473 ml. Details: Energético em lata de 473 ml. Show one chilled retail container matching the specified brand, type and size, upright, clearly distinguishable. Faithful recognizable packaging and label. No extra drinks or food. Composition: whole dish or container comfortably inside the square frame with margin, 3/4 overhead food camera or eye-level product camera, dark pub tabletop. Lighting: warm natural appetizing key light, clearly visible subtle pink neon rim light on one edge and mint/teal rim light on the opposite edge, pink and mint neon bokeh in dark background. Food keeps natural golden colors; colored light mainly on tabletop, glass or plate rim. Realistic textures, professional menu photo. No people, captions, collage or watermark."
+    },
+    {
+      "id": "70d04255-8d4c-4a02-a605-1fee9428d79a",
+      "name": "Del Valle Manga 290 ml",
+      "image": "dish-70d04255",
+      "prompt": "Use case: product-mockup. Asset type: square illustrative photograph for CubanHouse Brazilian gastrobar menu. Subject: Del Valle Manga 290 ml. Details: Néctar de manga em lata de 290 ml. Show one chilled retail container matching the specified brand, type and size, upright, clearly distinguishable. Faithful recognizable packaging and label. No extra drinks or food. Composition: whole dish or container comfortably inside the square frame with margin, 3/4 overhead food camera or eye-level product camera, dark pub tabletop. Lighting: warm natural appetizing key light, clearly visible subtle pink neon rim light on one edge and mint/teal rim light on the opposite edge, pink and mint neon bokeh in dark background. Food keeps natural golden colors; colored light mainly on tabletop, glass or plate rim. Realistic textures, professional menu photo. No people, captions, collage or watermark."
+    },
+    {
+      "id": "c46721ac-97fb-4ec4-8b95-1b75c876dc9b",
+      "name": "Red Bull 250 ml",
+      "image": "dish-c46721ac",
+      "prompt": "Use case: product-mockup. Asset type: square illustrative photograph for CubanHouse Brazilian gastrobar menu. Subject: Red Bull 250 ml. Details: Energético em lata de 250 ml. Show one chilled retail container matching the specified brand, type and size, upright, clearly distinguishable. Faithful recognizable packaging and label. No extra drinks or food. Composition: whole dish or container comfortably inside the square frame with margin, 3/4 overhead food camera or eye-level product camera, dark pub tabletop. Lighting: warm natural appetizing key light, clearly visible subtle pink neon rim light on one edge and mint/teal rim light on the opposite edge, pink and mint neon bokeh in dark background. Food keeps natural golden colors; colored light mainly on tabletop, glass or plate rim. Realistic textures, professional menu photo. No people, captions, collage or watermark."
+    }
+  ],
+  "edits": {
+    "prompts": {
+      "square": "Use case: lighting-weather. Edit this existing square food/drink photo. Preserve the exact dish, ingredients, quantity, plate or glass, and composition. Add the CubanHouse brand atmosphere using a clearly noticeable pink neon rim light from the left and mint/teal neon rim light from the right. Add matching pink and mint light bokeh in the dark pub background and realistic colored reflections on the tabletop and plate/glass edges. Keep the food itself naturally golden and appetizing. No typography, no logo printed on food, no watermark. Same square canvas.",
+      "panorama": "Use case: lighting-weather. Edit this existing 3:1 panoramic Brazilian gastrobar photograph. Preserve every dish and drink exactly, subject positions on the right, and large uncluttered dark negative space on the left. Preserve the full panoramic 3:1 canvas. Replace the mostly amber pub mood with CubanHouse pink and mint neon accents: vivid pink neon light bokeh and vertical pink tube in background, mint/teal light bokeh on opposite side, pink and mint reflections across tabletop and glassware and subtle colored rim highlights along plate edges. Keep food natural, golden, realistic, and clearly appetizing. No text, logo overlays, no watermark, no cropping, no people.",
+      "orbit": "Use case: lighting-weather. Edit the existing isolated overhead dish. Preserve the exact food, amount, arrangement and whole black plate. Add subtle pink neon rim reflection along one half of the plate edge and mint/teal neon along the other half; tiny natural colored highlights on plate, not recoloring the food. Keep golden appetizing food and photographic realism. Entire plate inside a square canvas with margin. Preserve a genuinely transparent background; no table, no typography, no logo overlay, no decorative objects."
+    },
+    "targets": [
+      {
+        "id": "edit-camarao",
+        "name": "camarao — neon",
+        "image": "camarao-neon",
+        "file": "camarao-neon-ai.webp",
+        "source": "dist/assets/camarao-ai.webp",
+        "type": "square"
+      },
+      {
+        "id": "edit-bolinho",
+        "name": "bolinho — neon",
+        "image": "bolinho-neon",
+        "file": "bolinho-neon-ai.webp",
+        "source": "dist/assets/bolinho-ai.webp",
+        "type": "square"
+      },
+      {
+        "id": "edit-parmegiana",
+        "name": "parmegiana — neon",
+        "image": "parmegiana-neon",
+        "file": "parmegiana-neon-ai.webp",
+        "source": "dist/assets/parmegiana-ai.webp",
+        "type": "square"
+      },
+      {
+        "id": "edit-caipirinha",
+        "name": "caipirinha — neon",
+        "image": "caipirinha-neon",
+        "file": "caipirinha-neon-ai.webp",
+        "source": "dist/assets/caipirinha-ai.webp",
+        "type": "square"
+      },
+      {
+        "id": "edit-batata",
+        "name": "batata — neon",
+        "image": "batata-neon",
+        "file": "batata-neon-ai.webp",
+        "source": "dist/assets/batata-ai.webp",
+        "type": "square"
+      },
+      {
+        "id": "edit-panceta",
+        "name": "panceta — neon",
+        "image": "panceta-neon",
+        "file": "panceta-neon-ai.webp",
+        "source": "dist/assets/panceta-ai.webp",
+        "type": "square"
+      },
+      {
+        "id": "edit-alcatra",
+        "name": "alcatra — neon",
+        "image": "alcatra-neon",
+        "file": "alcatra-neon-ai.webp",
+        "source": "dist/assets/alcatra-ai.webp",
+        "type": "square"
+      },
+      {
+        "id": "edit-pastel",
+        "name": "pastel — neon",
+        "image": "pastel-neon",
+        "file": "pastel-neon-ai.webp",
+        "source": "dist/assets/pastel-ai.webp",
+        "type": "square"
+      },
+      {
+        "id": "edit-cheese",
+        "name": "cheese — neon",
+        "image": "cheese-neon",
+        "file": "cheese-neon-ai.webp",
+        "source": "dist/assets/cheese-ai.webp",
+        "type": "square"
+      },
+      {
+        "id": "edit-croquete",
+        "name": "croquete — neon",
+        "image": "croquete-neon",
+        "file": "croquete-neon-ai.webp",
+        "source": "dist/assets/croquete-ai.webp",
+        "type": "square"
+      },
+      {
+        "id": "edit-pano-almoco",
+        "name": "almoco panorama — neon",
+        "file": "almoco-panorama-neon.webp",
+        "source": "dist/assets/almoco-panorama.webp",
+        "type": "panorama"
+      },
+      {
+        "id": "edit-pano-petiscos",
+        "name": "petiscos panorama — neon",
+        "file": "petiscos-panorama-neon.webp",
+        "source": "dist/assets/petiscos-panorama.webp",
+        "type": "panorama"
+      },
+      {
+        "id": "edit-pano-frutos-do-mar",
+        "name": "frutos-do-mar panorama — neon",
+        "file": "frutos-do-mar-panorama-neon.webp",
+        "source": "dist/assets/frutos-do-mar-panorama.webp",
+        "type": "panorama"
+      },
+      {
+        "id": "edit-pano-drinks",
+        "name": "drinks panorama — neon",
+        "file": "drinks-panorama-neon.webp",
+        "source": "dist/assets/drinks-panorama.webp",
+        "type": "panorama"
+      },
+      {
+        "id": "edit-pano-bebidas",
+        "name": "bebidas panorama — neon",
+        "file": "bebidas-panorama-neon.webp",
+        "source": "dist/assets/bebidas-panorama.webp",
+        "type": "panorama"
+      },
+      {
+        "id": "edit-pano-cardapio",
+        "name": "cardapio panorama — neon",
+        "file": "cardapio-panorama-neon.webp",
+        "source": "dist/assets/cardapio-panorama.webp",
+        "type": "panorama"
+      },
+      {
+        "id": "edit-orbit-camarao",
+        "name": "camarao carrossel — neon",
+        "file": "camarao-orbit-neon.webp",
+        "source": "dist/assets/camarao-orbit.webp",
+        "type": "orbit"
+      },
+      {
+        "id": "edit-orbit-batata",
+        "name": "batata carrossel — neon",
+        "file": "batata-orbit-neon.webp",
+        "source": "dist/assets/batata-orbit.webp",
+        "type": "orbit"
+      },
+      {
+        "id": "edit-orbit-croquete",
+        "name": "croquete carrossel — neon",
+        "file": "croquete-orbit-neon.webp",
+        "source": "dist/assets/croquete-orbit.webp",
+        "type": "orbit"
+      }
+    ]
+  }
+}

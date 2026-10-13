@@ -1,3 +1,4 @@
+import {photoMap} from './photo-map.js';
 // Snapshot of the restaurant's public iFood menu, checked 2026-10-12.
 // This is deliberately not presented as a live integration.
 export const storeURL = 'https://www.ifood.com.br/delivery/volta-redonda-rj/cuban-house-aterrado/e8ee13db-a4eb-45d8-8ee8-8d1f84f85a17';
@@ -56,4 +57,4 @@ const rows = [
 ['70d04255-8d4c-4a02-a605-1fee9428d79a','Del Valle Manga 290 ml','beverages',8,'Néctar de manga em lata de 290 ml.'],
 ['c46721ac-97fb-4ec4-8b95-1b75c876dc9b','Red Bull 250 ml','beverages',15,'Energético em lata de 250 ml.']
 ];
-export const dishes = rows.map(([id,name,category,price,description,image,featured])=>({id,name,category,price,description,image,featured:!!featured,url:storeURL+'?prato='+id}));
+export const dishes = rows.map(([id,name,category,price,description,image,featured])=>({id,name,category,price,description,image:photoMap[id]||image,featured:!!featured,url:storeURL+'?prato='+id}));

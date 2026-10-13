@@ -7,12 +7,14 @@ Demonstração comercial independente para apresentar ao Cuban House Gastrobar, 
 - Identidade em preto, rosa e verde-água, com o logo original preservado.
 - Galeria de pratos com avanço em etapas, setas, arraste no computador e toque no celular.
 - Categorias que se expandem ao passar o mouse ou receber foco por teclado, inspiradas no Qissa; cada categoria abre uma página própria.
-- 52 itens do catálogo público, pesquisa sem distinção de acentos, ordenação, favoritos locais e detalhes.
+- 52 itens do catálogo público, todos com foto ilustrativa de IA, pesquisa sem distinção de acentos, ordenação, favoritos locais e detalhes.
+- Miniaturas nas categorias abrem uma galeria com setas, teclado e deslize horizontal; a foto ampliada e o botão levam ao item correspondente no iFood.
+- Os pratos do carrossel inicial abrem a categoria e o prato específico pela âncora `#prato-ID`.
 - Links para a loja e itens no iFood; a compra acontece no iFood.
 - Emblema 3D inspirado na marca, com balanço e iluminação neon, carregado somente perto da seção.
 - GSAP, parallax e animações de rolagem. Letreiro final com algumas letras que apagam e reacendem.
 - Loading de primeira entrada por pelo menos 2 segundos: logo acende como letreiro. Nas navegações seguintes, só aparece se o carregamento demorar; transições e entrada do conteúdo nas páginas internas.
-- Layout responsivo, ações rápidas no celular e preferência de movimento reduzido.
+- Layout responsivo, navegação pelo cabeçalho no celular e preferência de movimento reduzido. O letreiro final fica em duas linhas no celular; sem barra inferior fixa.
 
 ## Idiomas e avaliações
 
@@ -24,7 +26,7 @@ O parallax da abertura mantém uma margem de imagem além da área visível, evi
 
 ## Imagens e conteúdo
 
-O logo é a foto pública original do Instagram. Imagens gastronômicas e cenas do pub foram geradas por IA e são identificadas como ilustrativas. Não são fotografias documentais do restaurante. Todas as seis categorias usam imagens panorâmicas próprias criadas para ocupar a largura da abertura. Pratos ou bebidas ficam à direita e o interior escuro do pub à esquerda, com luzes rosa e verde-água. As imagens em WebP são carregadas apenas na página correspondente.
+O logo é a foto pública original do Instagram. Imagens gastronômicas e cenas do pub foram geradas por IA e são identificadas como ilustrativas. Não são fotografias documentais do restaurante. Todas as seis categorias usam imagens panorâmicas próprias criadas para ocupar a largura da abertura. Pratos ou bebidas ficam à direita e o interior escuro do pub à esquerda, com luzes rosa e verde-água. As imagens em WebP são carregadas apenas na página correspondente. Todas as fotos do catálogo usam reflexos rosa e verde-água. Há 50 fotografias para os 52 itens (as promoções de caipirinha compartilham a mesma foto), versões de 160 px para miniaturas e de 720 px para a galeria. A geração e os prompts estão registrados em `image-prompts.json`, e a associação aos IDs está em `dist/photo-map.js`.
 
 Catálogo e informações públicas consultados em 12/10/2026. Preços, disponibilidade, entrega e valor final são confirmados no iFood. Não há credenciais nem sincronização automática nesta demonstração.
 
@@ -42,7 +44,7 @@ Importar o repositório no Vercel. A configuração em `vercel.json` usa a pasta
 
 ## Validação
 
-Verificação visual em computador e em telas de 390 e 320 px. Categorias, busca, ordenação, favoritos, detalhes e links foram conferidos. O loading foi verificado para primeira entrada, navegação rápida e carregamento lento. Não foram testadas compras ou a API do iFood.
+Verificação visual em computador e em telas de 390 e 320 px. Categorias, busca, ordenação, favoritos, detalhes e links foram conferidos. O loading foi verificado para primeira entrada, navegação rápida e carregamento lento. A galeria foi percorrida pelos 52 itens; IDs, imagens e links de cada categoria foram conferidos. Arrasto no computador, navegação por teclado e traduções da galeria também foram verificados. Não foram testadas compras ou a API do iFood.
 
 ## Integração futura
 

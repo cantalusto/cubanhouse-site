@@ -1,5 +1,6 @@
 import {dishes,categoryNames} from './catalog.js';
 import {initCarousel} from './carousel.js';
+import {initDishGallery} from './dish-gallery.js';
 const $=s=>document.querySelector(s);
 const money=n=>n.toLocaleString('pt-BR',{style:'currency',currency:'BRL'});
 const escape=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -20,7 +21,8 @@ function renderMenu(){
  document.querySelectorAll('[data-category]').forEach(b=>b.setAttribute('aria-pressed',b.dataset.category===category));
  window.ScrollTrigger?.refresh();
 }
-function openDish(id){const d=dishes.find(d=>d.id===id);if(!d)return;$('#dish-detail').innerHTML=photo(d,true)+`<div class="detail-copy"><p class="eyebrow">${categoryNames[d.category]}</p><h2 id="dish-title">${escape(d.name)}</h2><p class="detail-description">${escape(d.description)}</p><div class="detail-footer"><strong>${money(d.price)}</strong><a class="button" href="${d.url}" target="_blank" rel="noopener">Escolher no iFood <span>↗</span></a></div><p class="detail-note">Preço consultado em 12/10/2026. Confirme disponibilidade, opções e valor final no iFood.${d.image?' Imagem ilustrativa criada com IA a partir de referências do catálogo.':''}</p></div>`;$('#dish-dialog').showModal();document.body.classList.add('locked');}
+const gallery=initDishGallery(dishes);
+function openDish(id){gallery.open(id,filtered)}
 $('#menu-grid').addEventListener('click',e=>{const detail=e.target.closest('[data-detail]');if(detail)openDish(detail.dataset.detail);const b=e.target.closest('[data-favorite]');if(b){const id=b.dataset.favorite;if(favorites.has(id))favorites.delete(id);else favorites.add(id);try{localStorage.setItem('cuban-favorites',JSON.stringify([...favorites]))}catch{}if(category==='favorites')renderMenu();else{b.setAttribute('aria-pressed',favorites.has(id));b.setAttribute('aria-label',`${favorites.has(id)?'Remover':'Salvar'} ${dishes.find(d=>d.id===id).name} ${favorites.has(id)?'dos':'nos'} favoritos`);b.textContent=favorites.has(id)?'♥':'♡'}}});
 document.querySelectorAll('[data-category]').forEach(b=>b.addEventListener('click',()=>{category=b.dataset.category;limit=12;renderMenu()}));
 document.querySelectorAll('[data-occasion]').forEach(b=>b.addEventListener('click',()=>{category=b.dataset.occasion;query='';limit=12;$('#menu-search').value='';renderMenu();$('#cardapio').scrollIntoView({behavior:reduced.matches||userReduced?'instant':'smooth'})}));
@@ -28,9 +30,6 @@ $('#menu-search').addEventListener('input',e=>{query=e.target.value;if(query)cat
 $('#menu-sort').addEventListener('change',e=>{sort=e.target.value;renderMenu()});
 $('#load-more').addEventListener('click',()=>{limit+=12;renderMenu()});
 $('#reset-menu').addEventListener('click',()=>{category='all';query='';$('#menu-search').value='';limit=12;renderMenu()});
-$('.dialog-close').addEventListener('click',()=>$('#dish-dialog').close());
-$('#dish-dialog').addEventListener('close',()=>document.body.classList.remove('locked'));
-$('#dish-dialog').addEventListener('click',e=>{if(e.target===$('#dish-dialog')){const r=e.target.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)e.target.close()}});
 const mobileNav=$('#mobile-nav'),toggle=$('.nav-toggle');
 function closeNav(){mobileNav.hidden=true;toggle.setAttribute('aria-expanded','false');toggle.setAttribute('aria-label','Abrir navegação')}
 toggle.addEventListener('click',()=>{const open=mobileNav.hidden;mobileNav.hidden=!open;toggle.setAttribute('aria-expanded',open);toggle.setAttribute('aria-label',open?'Fechar navegação':'Abrir navegação')});
