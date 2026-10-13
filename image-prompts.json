@@ -241,6 +241,42 @@
       "name": "Red Bull 250 ml",
       "image": "dish-c46721ac",
       "prompt": "Use case: product-mockup. Asset type: square illustrative photograph for CubanHouse Brazilian gastrobar menu. Subject: Red Bull 250 ml. Details: Energético em lata de 250 ml. Show one chilled retail container matching the specified brand, type and size, upright, clearly distinguishable. Faithful recognizable packaging and label. No extra drinks or food. Composition: whole dish or container comfortably inside the square frame with margin, 3/4 overhead food camera or eye-level product camera, dark pub tabletop. Lighting: warm natural appetizing key light, clearly visible subtle pink neon rim light on one edge and mint/teal rim light on the opposite edge, pink and mint neon bokeh in dark background. Food keeps natural golden colors; colored light mainly on tabletop, glass or plate rim. Realistic textures, professional menu photo. No people, captions, collage or watermark."
+    },
+    {
+      "asset": "bolinho-orbit-neon",
+      "name": "Bolinho de costela com cream cheese",
+      "id": "cf122428-adb7-4bf5-91cb-46c6509c5ed9",
+      "subject": "eight golden crispy cassava croquettes filled with smoked beef ribs and cream cheese, one opened just enough to reveal shredded beef and creamy filling",
+      "prompt": "Use case: photorealistic-natural. Asset type: transparent cutout dish for CubanHouse rotating food carousel. Reference image: match its perfectly overhead camera, centered round black ceramic plate, bright pink neon rim on left and mint cyan neon rim on right, delicious warm golden natural food. Replace food with eight golden crispy cassava croquettes filled with smoked beef ribs and cream cheese, one opened just enough to reveal shredded beef and creamy filling. Entire round plate centered inside square with 5 percent margin, identical apparent plate scale. True transparent background outside plate, no tabletop, no people, no lettering, no watermark, no floating logo. Professional appetizing food photography, believable ingredients and portions.",
+      "reference": "dist/assets/camarao-orbit-neon.webp",
+      "transparent_background": true
+    },
+    {
+      "asset": "panceta-orbit-neon",
+      "name": "Panceta",
+      "id": "34271b29-3bac-4d7a-ad76-4d53c06593db",
+      "subject": "generous portion of crunchy roasted pork belly bite-size cubes with golden bubbled crackling and visible layers of juicy meat, with two lime wedges",
+      "prompt": "Use case: photorealistic-natural. Asset type: transparent cutout dish for CubanHouse rotating food carousel. Reference image: match its perfectly overhead camera, centered round black ceramic plate, bright pink neon rim on left and mint cyan neon rim on right, delicious warm golden natural food. Replace food with generous portion of crunchy roasted pork belly bite-size cubes with golden bubbled crackling and visible layers of juicy meat, with two lime wedges. Entire round plate centered inside square with 5 percent margin, identical apparent plate scale. True transparent background outside plate, no tabletop, no people, no lettering, no watermark, no floating logo. Professional appetizing food photography, believable ingredients and portions.",
+      "reference": "dist/assets/camarao-orbit-neon.webp",
+      "transparent_background": true
+    },
+    {
+      "asset": "pastel-orbit-neon",
+      "name": "Pastel de camarão com cream cheese",
+      "id": "b9c9e50b-0786-4981-826e-ca4517eb8033",
+      "subject": "four Brazilian fried half-moon pastries with delicate blistered golden crust and crimped edges, filled with shrimp and cream cheese, one cut open revealing shrimp and creamy filling, small black ramekin of red dipping sauce",
+      "prompt": "Use case: photorealistic-natural. Asset type: transparent cutout dish for CubanHouse rotating food carousel. Reference image: match its perfectly overhead camera, centered round black ceramic plate, bright pink neon rim on left and mint cyan neon rim on right, delicious warm golden natural food. Replace food with four Brazilian fried half-moon pastries with delicate blistered golden crust and crimped edges, filled with shrimp and cream cheese, one cut open revealing shrimp and creamy filling, small black ramekin of red dipping sauce. Entire round plate centered inside square with 5 percent margin, identical apparent plate scale. True transparent background outside plate, no tabletop, no people, no lettering, no watermark, no floating logo. Professional appetizing food photography, believable ingredients and portions.",
+      "reference": "dist/assets/camarao-orbit-neon.webp",
+      "transparent_background": true
+    },
+    {
+      "asset": "coxa-orbit-neon",
+      "name": "Coxa de frango cremosa",
+      "id": "77b3ac75-ae6e-4bb9-9536-04dc048b188a",
+      "subject": "four Brazilian creamy stuffed chicken drumstick snacks, drumstick-shaped golden breaded chicken with exposed short bone tips, one opened showing shredded chicken and melted cheese",
+      "prompt": "Use case: photorealistic-natural. Asset type: transparent cutout dish for CubanHouse rotating food carousel. Reference image: match its perfectly overhead camera, centered round black ceramic plate, bright pink neon rim on left and mint cyan neon rim on right, delicious warm golden natural food. Replace food with four Brazilian creamy stuffed chicken drumstick snacks, drumstick-shaped golden breaded chicken with exposed short bone tips, one opened showing shredded chicken and melted cheese. Entire round plate centered inside square with 5 percent margin, identical apparent plate scale. True transparent background outside plate, no tabletop, no people, no lettering, no watermark, no floating logo. Professional appetizing food photography, believable ingredients and portions.",
+      "reference": "dist/assets/camarao-orbit-neon.webp",
+      "transparent_background": true
     }
   ],
   "edits": {

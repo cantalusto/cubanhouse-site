@@ -44,6 +44,8 @@ Importar o repositório no Vercel. A configuração em `vercel.json` usa a pasta
 
 ## Validação
 
+A roda da página inicial tem sete pratos com imagens transparentes e iluminação neon; cada um abre o prato correspondente no cardápio. A área de visita permite selecionar os sete dias, destaca o dia atual no fuso de São Paulo e oferece a lista completa de horários. O cartão de localização abre o Google Maps. Os controles e a área de visita têm versões em português, inglês e espanhol. O botão de fechar a galeria usa o mesmo contorno verde-água das setas, com área de toque de 44 px; no celular ele fica sobre a foto sem estreitar o conteúdo.
+
 Verificação visual em computador e em telas de 390 e 320 px. Categorias, busca, ordenação, favoritos, detalhes e links foram conferidos. O loading foi verificado para primeira entrada, navegação rápida e carregamento lento. A galeria foi percorrida pelos 52 itens; IDs, imagens e links de cada categoria foram conferidos. Arrasto no computador, navegação por teclado e traduções da galeria também foram verificados. Não foram testadas compras ou a API do iFood.
 
 ## Integração futura

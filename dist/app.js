@@ -1,6 +1,7 @@
 import {dishes,categoryNames} from './catalog.js';
 import {initCarousel} from './carousel.js';
 import {initDishGallery} from './dish-gallery.js';
+import {initVisit} from './visit.js';
 const $=s=>document.querySelector(s);
 const money=n=>n.toLocaleString('pt-BR',{style:'currency',currency:'BRL'});
 const escape=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -58,7 +59,7 @@ function setupMotion(){animationContext?.revert();const disabled=reduced.matches
  });
 }
 $('#motion-toggle').addEventListener('click',()=>{userReduced=!(userReduced||reduced.matches);try{localStorage.setItem('cuban-motion',userReduced?'reduced':'full')}catch{}setupMotion()});reduced.addEventListener('change',setupMotion);
-renderMenu();initCarousel({reduced:reduced.matches||userReduced});
+renderMenu();initCarousel({reduced:reduced.matches||userReduced});initVisit();
 // The loader can finish before this module executes on a warm navigation.
 if(document.documentElement.classList.contains('page-ready'))setupMotion();
 else window.addEventListener('cuban:ready',setupMotion,{once:true});
