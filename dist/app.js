@@ -5,7 +5,7 @@ const money=n=>n.toLocaleString('pt-BR',{style:'currency',currency:'BRL'});
 const escape=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const readSaved=()=>{try{return JSON.parse(localStorage.getItem('cuban-favorites')||'[]')}catch{return[]}};
 const favorites=new Set(readSaved().filter(id=>dishes.some(d=>d.id===id)));
-let category='featured',query='',sort='default',limit=12,filtered=[],animationContext;
+let category='featured',query='',sort='default',limit=12,filtered=[],animationContext,heroEntrancePlayed=false;
 const fold=s=>s.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
 const icon=category=>`<svg viewBox="0 0 80 80" fill="none" stroke="currentColor" stroke-width="1.2" aria-hidden="true">${['drinks','beverages'].includes(category)?'<path d="M23 22h34l-5 39H28zM28 37h24M39 21l9-13M27 61h27"/><circle cx="56" cy="22" r="11"/><path d="M49 14l14 15"/>':'<circle cx="40" cy="40" r="25"/><circle cx="40" cy="40" r="18"/><path d="M7 18v20h8V18M11 38v26M67 18v46M67 18c10 3 9 17 0 22"/>'}</svg>`;
 function photo(d,detail=false){return d.image?`<img class="${detail?'detail-image':''}" src="assets/${d.image}-ai.webp" alt="${escape(d.name)} — imagem ilustrativa criada com IA" loading="lazy" width="350" height="260">`:`<div class="no-photo ${detail?'detail-no-photo':''}">${icon(d.category)}<small>Sem foto no catálogo</small></div>`}
@@ -41,17 +41,32 @@ window.addEventListener('scroll',()=>$('.header').classList.toggle('scrolled',sc
 const reduced=matchMedia('(prefers-reduced-motion: reduce)');let userReduced=false;try{userReduced=localStorage.getItem('cuban-motion')==='reduced'}catch{}
 function setupMotion(){animationContext?.revert();const disabled=reduced.matches||userReduced;document.documentElement.classList.toggle('reduce-motion',disabled);$('#motion-toggle').setAttribute('aria-pressed',disabled);$('#motion-toggle').textContent=disabled?'Movimento reduzido':'Reduzir movimento';window.dispatchEvent(new CustomEvent('cuban:motion',{detail:{reduced:disabled}}));if(disabled||!window.gsap||!window.ScrollTrigger)return;
  gsap.registerPlugin(ScrollTrigger);animationContext=gsap.context(()=>{
-  gsap.from('.hero-line',{y:35,opacity:0,stagger:.14,duration:1.15,ease:'power3.out'});gsap.from('.hero-enter',{y:18,opacity:0,stagger:.13,duration:.8,delay:.25});
+  // Play the entrance once, after the loader; returning to the hero keeps it readable.
+  if(!heroEntrancePlayed){
+   heroEntrancePlayed=true;
+   const heroBounds=$('.hero').getBoundingClientRect();
+   if(heroBounds.bottom>0&&heroBounds.top<innerHeight){
+    gsap.from('.hero-line',{y:35,opacity:0,stagger:.14,duration:1.15,ease:'power3.out',clearProps:'transform,opacity'});
+    gsap.from('.hero-enter',{y:18,opacity:0,stagger:.13,duration:.8,delay:.25,clearProps:'transform,opacity'});
+   }
+  }
   gsap.from('.divider-line',{scaleX:0,ease:'none',scrollTrigger:{trigger:'.night-divider',start:'top bottom',end:'top 65%',scrub:1}});
 
   gsap.utils.toArray('.section-heading,.experience-copy,.visit-left,.visit-info').forEach(el=>gsap.from(el,{y:34,opacity:0,duration:.8,ease:'power2.out',scrollTrigger:{trigger:el,start:'top 90%',once:true}}));
   gsap.from('.night-section h2',{y:70,duration:1,ease:'power2.out',scrollTrigger:{trigger:'.night-section',start:'top 80%',end:'top 20%',scrub:1}});
   gsap.to('.night-waves',{y:-22,ease:'none',scrollTrigger:{trigger:'.night-section',start:'top bottom',end:'bottom top',scrub:1}});
-  gsap.matchMedia().add('(min-width: 761px)',()=>{gsap.fromTo('.hero-photo',{y:0,scale:1},{y:65,scale:1.02,ease:'none',scrollTrigger:{trigger:'.hero',start:'top top',end:'bottom top',scrub:.6,invalidateOnRefresh:true}});gsap.to('.hero-content',{y:100,opacity:.3,ease:'none',scrollTrigger:{trigger:'.hero',start:'top top',end:'bottom top',scrub:1}})});
+  gsap.matchMedia().add('(min-width: 761px)',()=>{gsap.fromTo('.hero-photo',{y:0,scale:1},{y:65,scale:1.02,ease:'none',scrollTrigger:{trigger:'.hero',start:'top top',end:'bottom top',scrub:.6,invalidateOnRefresh:true}})});
  });
 }
 $('#motion-toggle').addEventListener('click',()=>{userReduced=!(userReduced||reduced.matches);try{localStorage.setItem('cuban-motion',userReduced?'reduced':'full')}catch{}setupMotion()});reduced.addEventListener('change',setupMotion);
-renderMenu();setupMotion();initCarousel({reduced:reduced.matches||userReduced});window.addEventListener("cuban:ready",setupMotion,{once:true});document.fonts.ready.then(()=>window.ScrollTrigger?.refresh());
+renderMenu();initCarousel({reduced:reduced.matches||userReduced});
+// The loader can finish before this module executes on a warm navigation.
+if(document.documentElement.classList.contains('page-ready'))setupMotion();
+else window.addEventListener('cuban:ready',setupMotion,{once:true});
+document.fonts.ready.then(()=>window.ScrollTrigger?.refresh());
+window.addEventListener('pageshow',event=>{
+ if(event.persisted)requestAnimationFrame(()=>window.ScrollTrigger?.refresh());
+});
 // Load WebGL only when the section approaches the viewport.
 const sceneObserver=new IntersectionObserver(entries=>{if(entries.some(e=>e.isIntersecting)){sceneObserver.disconnect();import('./brand-scene.js').then(m=>m.initBrand({reduced:reduced.matches||userReduced})).catch(()=>{/* The original logo remains the fallback. */})}},{rootMargin:'200px'});sceneObserver.observe($('#brand-3d'));
 
