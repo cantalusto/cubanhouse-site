@@ -262,3 +262,7 @@ html[lang=en] .loader-secondary .page-loader>span:not(.sr-only):after{content:'P
 .dish-gallery .dialog-close{display:grid;place-items:center;width:44px;height:44px;padding:0;line-height:1;font-size:0;border:1px solid #7de7d744;background:#0b0f16ed;color:var(--mint);transition:color .2s,border-color .2s,background .2s}.dish-gallery .dialog-close svg{width:18px;height:18px;pointer-events:none}.dish-gallery .dialog-close:hover{color:var(--pink);border-color:var(--pink);background:#19121e}.dish-gallery .dialog-close:focus-visible{outline:2px solid var(--mint);outline-offset:3px}
 @media(max-width:760px){.plate-nav{gap:12px}.plate-nav>span{min-width:0;max-width:250px;flex:1;line-height:1.4}.plate-arrow{flex:0 0 38px}}
 @media(max-width:760px){.dish-gallery .dialog-close{position:absolute;float:none;top:12px;right:12px;margin:0}}
+.table-stage.dish-carousel,.plate-link{touch-action:pan-y pinch-zoom}
+.plate-link{user-select:none;-webkit-user-select:none;-webkit-touch-callout:none}
+@media(max-width:760px){.plate-arrow{width:44px;height:44px;flex-basis:44px}}
+.dish-carousel:focus-visible{outline:1px solid #7de7d744;outline-offset:-1px}
