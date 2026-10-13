@@ -46,7 +46,7 @@
  window.cubanI18n={t:translate,get language(){return language},setLanguage};
  function boot(){
   const actions=document.querySelector('.header-actions');
-  if(actions){const label=document.createElement('label');label.className='language-switcher';label.innerHTML='<span aria-hidden="true">◎</span><select id="site-language" aria-label="Idioma / Language / Idioma"><option value="pt" lang="pt-BR">PT</option><option value="en" lang="en">EN</option><option value="es" lang="es">ES</option></select>';actions.prepend(label);label.querySelector('select').addEventListener('change',e=>setLanguage(e.target.value));
+  if(actions){const label=document.createElement('label');label.className='language-switcher';label.innerHTML='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c3 3 4 6 4 9s-1 6-4 9c-3-3-4-6-4-9s1-6 4-9Z"/></svg><select id="site-language" aria-label="Idioma / Language / Idioma"><option value="pt" lang="pt-BR">PT</option><option value="en" lang="en">EN</option><option value="es" lang="es">ES</option></select>';actions.prepend(label);label.querySelector('select').addEventListener('change',e=>setLanguage(e.target.value));
    const order=actions.querySelector('a.button-small');if(order){const text=[...order.childNodes].find(n=>n.nodeType===3&&n.data.trim());if(text){const span=document.createElement('span');span.className='header-order-label';text.replaceWith(span);span.append(text)}const short=document.createElement('span');short.className='header-order-short';short.textContent='iFood';short.setAttribute('aria-hidden','true');order.prepend(short);if(!order.hasAttribute('aria-label'))order.setAttribute('aria-label','Pedir no iFood')}
   }
   apply();
